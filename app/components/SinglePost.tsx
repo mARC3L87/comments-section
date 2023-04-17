@@ -3,7 +3,7 @@ import replyIcon from '../../public/images/icon-reply.svg';
 const SinglePost = () => {
   return (
     <div className='bg-neutral-white max-w-[1440px] w-1/2 flex p-5 rounded-md mt-6'>
-      <div className='group flex flex-col items-center h-20 justify-center rounded-lg bg-neutral-veryLightGray py-1 px-2 text-xl text-primary-lightGrayishBlue font-bold'>
+      <div className='flex flex-col items-center h-20 justify-center rounded-lg bg-neutral-veryLightGray py-1 px-2 text-xl text-primary-lightGrayishBlue font-bold'>
         <p className='hover:text-primary-moderateBlue cursor-pointer'>+</p>
         <p className='text-primary-moderateBlue text-base'>12</p>
         <p className='hover:text-primary-moderateBlue cursor-pointer'>-</p>
